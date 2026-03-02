@@ -1,0 +1,36 @@
+MODEL 1
+REMARK VINA RESULT:      -6.2      0.000      0.000
+REMARK  Name = 
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  C_2
+REMARK    2  A    between atoms: C_6  and  N_7
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      15.363  52.877  87.347  0.00  0.00    +0.027 A 
+ATOM      2  C   UNL     1      16.293  52.423  86.434  0.00  0.00    +0.044 A 
+ATOM      3  C   UNL     1      17.307  53.277  86.049  0.00  0.00    +0.065 A 
+ATOM      4 CL   UNL     1      18.486  52.712  84.898  0.00  0.00    -0.082 Cl
+ATOM      5  C   UNL     1      17.341  54.536  86.592  0.00  0.00    +0.071 A 
+ATOM      6  C   UNL     1      16.394  54.956  87.502  0.00  0.00    +0.065 A 
+ATOM      7 CL   UNL     1      16.540  56.585  88.127  0.00  0.00    -0.082 Cl
+ATOM      8  C   UNL     1      15.365  54.134  87.913  0.00  0.00    +0.044 A 
+ENDROOT
+BRANCH   5   9
+ATOM      9  N   UNL     1      18.401  55.392  86.173  0.00  0.00    -0.285 N 
+ATOM     10  C   UNL     1      19.564  55.485  87.016  0.00  0.00    +0.180 C 
+ATOM     11  N   UNL     1      19.677  54.901  88.173  0.00  0.00    -0.254 NA
+ATOM     12  C   UNL     1      20.991  55.217  88.742  0.00  0.00    +0.163 C 
+ATOM     13  C   UNL     1      21.357  56.487  88.001  0.00  0.00    +0.127 C 
+ATOM     14  N   UNL     1      20.748  56.232  86.688  0.00  0.00    -0.315 N 
+ATOM     15  H   UNL     1      18.356  55.953  85.271  0.00  0.00    +0.155 HD
+ATOM     16  H   UNL     1      21.083  56.520  85.728  0.00  0.00    +0.149 HD
+ENDBRANCH   5   9
+BRANCH   1  17
+ATOM     17  N   UNL     1      14.325  51.981  87.729  0.00  0.00    -0.358 N 
+ATOM     18  H   UNL     1      14.209  51.172  87.061  0.00  0.00    +0.142 HD
+ATOM     19  H   UNL     1      13.589  51.790  88.445  0.00  0.00    +0.142 HD
+ENDBRANCH   1  17
+TORSDOF 2
+ENDMDL
