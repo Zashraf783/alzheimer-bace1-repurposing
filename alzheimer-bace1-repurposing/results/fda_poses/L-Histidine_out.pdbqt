@@ -1,0 +1,41 @@
+MODEL 1
+REMARK VINA RESULT:      -5.2      0.000      0.000
+REMARK  Name = 
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_9
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: C_9  and  O_10
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  HIS A   1      15.488  52.812  87.757  0.00  0.00    +0.166 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   HIS A   1      14.655  51.717  88.071  0.00  0.00    -0.318 NA
+ATOM      3  H1  HIS A   1      15.024  50.779  87.920  0.00  0.00    +0.119 HD
+ATOM      4  H2  HIS A   1      13.642  51.857  88.044  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   HIS A   1      14.844  54.074  88.225  0.00  0.00    +0.322 C 
+ATOM      6  OXT HIS A   1      14.907  55.302  87.868  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   HIS A   1      13.984  53.840  89.292  0.00  0.00    -0.480 OA
+ATOM      8  H   HIS A   1      14.053  54.346  90.182  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  HIS A   1      15.602  52.925  86.256  0.00  0.00    +0.084 C 
+BRANCH   9  10
+ATOM     10  CG  HIS A   1      16.992  53.102  85.780  0.00  0.00    +0.037 A 
+ATOM     11  CD2 HIS A   1      17.839  52.334  85.021  0.00  0.00    +0.133 A 
+ATOM     12  NE2 HIS A   1      19.021  52.996  84.889  0.00  0.00    -0.244 NA
+ATOM     13  CE1 HIS A   1      18.870  54.154  85.570  0.00  0.00    +0.196 A 
+ATOM     14  ND1 HIS A   1      17.637  54.248  86.128  0.00  0.00    -0.348 N 
+ATOM     15  HD1 HIS A   1      17.355  55.077  86.687  0.00  0.00    +0.166 HD
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL

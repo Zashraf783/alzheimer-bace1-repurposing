@@ -1,0 +1,44 @@
+MODEL 1
+REMARK VINA RESULT:      -5.0      0.000      0.000
+REMARK  Name = 
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N_1  and  CA_2
+REMARK    2  A    between atoms: CA_2  and  CB_3
+REMARK    3  A    between atoms: CA_2  and  C_8
+REMARK    4  A    between atoms: CB_3  and  CG_4
+REMARK    5  A    between atoms: CG_4  and  CD_5
+REMARK    6  A    between atoms: C_8  and  O_9
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  GLN A   1      15.731  53.106  87.960  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   GLN A   1      14.863  51.951  87.679  0.00  0.00    -0.318 NA
+ATOM      3  H1  GLN A   1      13.892  52.326  87.526  0.00  0.00    +0.119 HD
+ATOM      4  H2  GLN A   1      14.894  51.365  88.552  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   GLN A   1      14.828  54.165  88.479  0.00  0.00    +0.322 C 
+ATOM      6  OXT GLN A   1      14.773  55.356  88.062  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   GLN A   1      13.911  53.987  89.504  0.00  0.00    -0.480 OA
+ATOM      8  H   GLN A   1      13.689  54.654  90.221  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  GLN A   1      16.394  53.496  86.674  0.00  0.00    +0.039 C 
+BRANCH   9  10
+ATOM     10  CG  GLN A   1      16.332  52.430  85.603  0.00  0.00    +0.097 C 
+BRANCH  10  11
+ATOM     11  CD  GLN A   1      17.756  52.179  85.177  0.00  0.00    +0.211 C 
+ATOM     12  NE2 GLN A   1      18.339  50.884  85.264  0.00  0.00    -0.329 N 
+ATOM     13  OE1 GLN A   1      18.512  53.103  84.720  0.00  0.00    -0.276 OA
+ATOM     14 HE21 GLN A   1      18.461  50.132  84.542  0.00  0.00    +0.145 HD
+ATOM     15 HE22 GLN A   1      18.761  50.451  86.110  0.00  0.00    +0.145 HD
+ENDBRANCH  10  11
+ENDBRANCH   9  10
+ENDBRANCH   1   9
+TORSDOF 6
+ENDMDL

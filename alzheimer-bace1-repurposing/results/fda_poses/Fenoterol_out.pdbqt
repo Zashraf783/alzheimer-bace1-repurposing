@@ -1,0 +1,69 @@
+MODEL 1
+REMARK VINA RESULT:      -7.8      0.000      0.000
+REMARK  Name = 
+REMARK  11 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C_1  and  C_2
+REMARK    2  A    between atoms: C_2  and  C_3
+REMARK    3  A    between atoms: C_2  and  N_11
+REMARK    4  A    between atoms: C_3  and  C_4
+REMARK    5  A    between atoms: C_7  and  O_8
+REMARK    6  A    between atoms: N_11  and  C_12
+REMARK    7  A    between atoms: C_12  and  C_13
+REMARK    8  A    between atoms: C_13  and  O_14
+REMARK    9  A    between atoms: C_13  and  C_15
+REMARK   10  A    between atoms: C_17  and  O_18
+REMARK   11  A    between atoms: C_20  and  O_21
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  C   UNL     1      22.079  55.344  86.339  0.00  0.00    +0.117 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   UNL     1      20.990  54.700  86.893  0.00  0.00    -0.310 NA
+ATOM      3  H   UNL     1      21.233  53.771  87.304  0.00  0.00    +0.122 HD
+BRANCH   2   5
+ATOM      4  C   UNL     1      19.920  56.572  88.178  0.00  0.00    +0.024 C 
+ATOM      5  C   UNL     1      19.898  55.233  87.543  0.00  0.00    +0.055 C 
+BRANCH   5   6
+ATOM      6  C   UNL     1      18.807  55.372  86.422  0.00  0.00    +0.053 C 
+BRANCH   6   7
+ATOM      7  C   UNL     1      17.637  54.563  86.742  0.00  0.00    -0.046 A 
+ATOM      8  C   UNL     1      16.752  54.744  87.783  0.00  0.00    +0.007 A 
+ATOM      9  C   UNL     1      15.644  53.969  88.049  0.00  0.00    +0.045 A 
+ATOM     10  C   UNL     1      15.373  52.895  87.193  0.00  0.00    +0.117 A 
+ATOM     11  C   UNL     1      16.246  52.696  86.145  0.00  0.00    +0.045 A 
+ATOM     12  C   UNL     1      17.334  53.483  85.912  0.00  0.00    +0.007 A 
+BRANCH  10  13
+ATOM     13  O   UNL     1      14.252  52.143  87.496  0.00  0.00    -0.507 OA
+ATOM     14  H   UNL     1      13.362  52.394  87.116  0.00  0.00    +0.292 HD
+ENDBRANCH  10  13
+ENDBRANCH   6   7
+ENDBRANCH   5   6
+ENDBRANCH   2   5
+ENDBRANCH   1   2
+BRANCH   1  15
+ATOM     15  C   UNL     1      23.381  55.182  87.056  0.00  0.00    +0.158 C 
+BRANCH  15  16
+ATOM     16  C   UNL     1      24.487  55.665  86.134  0.00  0.00    -0.011 A 
+ATOM     17  C   UNL     1      25.786  55.206  86.200  0.00  0.00    +0.051 A 
+ATOM     18  C   UNL     1      26.697  55.706  85.301  0.00  0.00    +0.121 A 
+ATOM     19  C   UNL     1      26.386  56.643  84.335  0.00  0.00    +0.090 A 
+ATOM     20  C   UNL     1      25.100  57.104  84.258  0.00  0.00    +0.121 A 
+ATOM     21  C   UNL     1      24.184  56.608  85.157  0.00  0.00    +0.051 A 
+BRANCH  18  22
+ATOM     22  O   UNL     1      28.020  55.260  85.345  0.00  0.00    -0.507 OA
+ATOM     23  H   UNL     1      28.185  54.356  85.788  0.00  0.00    +0.292 HD
+ENDBRANCH  18  22
+BRANCH  20  24
+ATOM     24  O   UNL     1      24.699  58.036  83.321  0.00  0.00    -0.507 OA
+ATOM     25  H   UNL     1      23.744  58.252  83.168  0.00  0.00    +0.292 HD
+ENDBRANCH  20  24
+ENDBRANCH  15  16
+BRANCH  15  26
+ATOM     26  O   UNL     1      23.746  53.964  87.485  0.00  0.00    -0.386 OA
+ATOM     27  H   UNL     1      24.693  53.790  87.691  0.00  0.00    +0.210 HD
+ENDBRANCH  15  26
+ENDBRANCH   1  15
+TORSDOF 10
+ENDMDL

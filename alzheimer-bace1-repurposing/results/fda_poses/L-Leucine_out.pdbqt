@@ -1,0 +1,40 @@
+MODEL 1
+REMARK VINA RESULT:      -4.6      0.000      0.000
+REMARK  Name = 
+REMARK  7 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: CD1_1  and  CG_2
+REMARK    2  A    between atoms: CG_2  and  CD2_3
+REMARK    3  A    between atoms: CG_2  and  CB_4
+REMARK    4  A    between atoms: CB_4  and  CA_5
+REMARK    5  A    between atoms: CA_5  and  N_6
+REMARK    6  A    between atoms: CA_5  and  C_7
+REMARK    7  A    between atoms: C_7  and  O_8
+REMARK                            x       y       z     vdW  Elec       q    Type
+REMARK                         _______ _______ _______ _____ _____    ______ ____
+ROOT
+ATOM      1  CA  LEU A   1      22.760  56.106  89.032  0.00  0.00    +0.161 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  N   LEU A   1      24.050  56.759  88.965  0.00  0.00    -0.318 NA
+ATOM      3  H1  LEU A   1      24.683  56.436  89.733  0.00  0.00    +0.119 HD
+ATOM      4  H2  LEU A   1      24.023  57.780  88.894  0.00  0.00    +0.119 HD
+ENDBRANCH   1   2
+BRANCH   1   5
+ATOM      5  C   LEU A   1      22.715  55.196  90.202  0.00  0.00    +0.322 C 
+ATOM      6  OXT LEU A   1      23.267  55.839  91.106  0.00  0.00    -0.249 OA
+BRANCH   5   7
+ATOM      7  O   LEU A   1      22.301  53.958  90.613  0.00  0.00    -0.480 OA
+ATOM      8  H   LEU A   1      21.824  53.816  91.494  0.00  0.00    +0.295 HD
+ENDBRANCH   5   7
+ENDBRANCH   1   5
+BRANCH   1   9
+ATOM      9  CB  LEU A   1      22.440  55.364  87.747  0.00  0.00    +0.033 C 
+BRANCH   9  11
+ATOM     10  CD1 LEU A   1      20.175  56.341  87.549  0.00  0.00    +0.007 C 
+ATOM     11  CG  LEU A   1      21.544  56.206  86.882  0.00  0.00    -0.015 C 
+ATOM     12  CD2 LEU A   1      21.260  55.507  85.556  0.00  0.00    +0.007 C 
+ENDBRANCH   9  11
+ENDBRANCH   1   9
+TORSDOF 5
+ENDMDL
