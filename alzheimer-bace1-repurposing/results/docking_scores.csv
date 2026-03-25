@@ -823,21 +823,21 @@ Spectinomycin,-7.6
 Atomoxetine,-7.6
 Pemirolast,-7.6
 Cyclacillin,-7.6
+Abacavir,-7.6
 Codeine,-7.6
-Tiaprofenic acid,-7.6
 Diphenylpyraline,-7.6
 Methylphenobarbital,-7.6
 Dinoprostone,-7.6
-Clotrimazole,-7.6
+Tiaprofenic acid,-7.6
 Sulfoxone,-7.6
 Carteolol,-7.6
-Cefixime,-7.6
+Clotrimazole,-7.6
 Oxamniquine,-7.6
 Suprofen,-7.6
-Abacavir,-7.5
-Sulfisoxazole,-7.5
+Cefixime,-7.6
 Citalopram,-7.5
-Orphenadrine,-7.5
+Sulfamethazine,-7.5
+Sulfisoxazole,-7.5
 Methsuximide,-7.5
 Oxymetazoline,-7.5
 Entacapone,-7.5
@@ -848,12 +848,12 @@ Roxatidine acetate,-7.5
 Metaxalone,-7.5
 Aminoglutethimide,-7.5
 Cefmetazole,-7.5
+Dextrothyroxine,-7.5
 Sulfaphenazole,-7.5
-Cyclizine,-7.5
 Mupirocin,-7.5
-Sulfamethazine,-7.5
+Cyclizine,-7.5
 Chlorpromazine,-7.5
-Remifentanil,-7.5
+Orphenadrine,-7.5
 Phenformin,-7.5
 Perindopril,-7.5
 Glycopyrrolate,-7.5
@@ -877,7 +877,7 @@ Methoxsalen,-7.5
 Methyclothiazide,-7.5
 Clopidogrel,-7.5
 Liothyronine,-7.5
-Dextrothyroxine,-7.5
+Remifentanil,-7.5
 Bimatoprost,-7.5
 Bevantolol,-7.5
 Ramelteon,-7.5
@@ -1272,9 +1272,9 @@ Pyridoxine,-5.5
 Sodium Tetradecyl Sulfate,-5.5
 Carglumic Acid,-5.5
 Nitroglycerin,-5.5
-Norepinephrine,-5.5
-Phenylephrine,-5.5
 Amphetamine,-5.5
+Phenylephrine,-5.5
+Norepinephrine,-5.5
 Dextroamphetamine,-5.4
 Succinylcholine,-5.4
 Salicylamide,-5.4
@@ -1318,13 +1318,13 @@ Alendronate,-5.1
 Spermine,-5.0
 L-Glutamic Acid,-5.0
 Hydroxocobalamin,-5.0
-Acamprosate,-5.0
-Allopurinol,-5.0
 N-Acetyl-D-glucosamine,-5.0
+Allopurinol,-5.0
+L-Glutamine,-5.0
 Deferiprone,-5.0
 Metformin,-5.0
-L-Glutamine,-5.0
 Ethosuximide,-4.9
+Miglitol,-4.9
 Pamidronate,-4.9
 Mercaptopurine,-4.9
 Desflurane,-4.9
@@ -1336,70 +1336,70 @@ Echothiophate,-4.9
 Vitamin C,-4.9
 Etidronic acid,-4.9
 Metronidazole,-4.9
-Miglitol,-4.9
-Lipoic Acid,-4.9
 Lindane,-4.9
+Lipoic Acid,-4.9
+Acamprosate,-4.8
 Niacin,-4.8
 Adenine,-4.8
-Paramethadione,-4.8
 Perflutren,-4.8
-Betahistine,-4.8
+Paramethadione,-4.8
 Sevoflurane,-4.8
 Glucosamine,-4.8
-Valproic Acid,-4.7
+Betahistine,-4.8
 Benzyl alcohol,-4.7
 Hydroxyproline,-4.7
 L-Isoleucine,-4.7
+Valproic Acid,-4.7
 Carmustine,-4.6
-Mannitol,-4.6
-L-Lysine,-4.6
-L-Aspartic Acid,-4.6
-L-Asparagine,-4.6
-L-Proline,-4.6
+Creatine,-4.6
 L-Leucine,-4.6
+L-Aspartic Acid,-4.6
+L-Proline,-4.6
+L-Asparagine,-4.6
 Bethanechol,-4.6
 Fluorouracil,-4.6
-Pyrazinamide,-4.6
-Creatine,-4.6
+Mannitol,-4.6
+L-Lysine,-4.6
 Flucytosine,-4.6
 Vigabatrin,-4.6
-Betazole,-4.5
+Pyrazinamide,-4.6
 Aminocaproic Acid,-4.5
 Ethchlorvynol,-4.5
-Succinic acid,-4.5
 L-Serine,-4.5
-L-Ornithine,-4.5
+Succinic acid,-4.5
+Betazole,-4.5
 Trimethadione,-4.5
+L-Ornithine,-4.5
+Methyl aminolevulinate,-4.4
 Methacholine,-4.4
-Aminolevulinic acid,-4.4
-L-Valine,-4.4
 Chlormerodrin,-4.4
 Phenol,-4.4
 Acetylcysteine,-4.4
-Methyl aminolevulinate,-4.4
+L-Valine,-4.4
+Aminolevulinic acid,-4.4
 Hydroxyurea,-4.4
+Amifostine,-4.3
 Nitroprusside,-4.3
 Amyl Nitrite,-4.3
-Amifostine,-4.3
 L-Methionine,-4.2
-L-Threonine,-4.2
 Cycloserine,-4.2
-L-Carnitine,-4.1
-Acetohydroxamic Acid,-4.1
+L-Threonine,-4.2
 L-Alanine,-4.1
-Pyruvic acid,-4.1
+Acetohydroxamic Acid,-4.1
 Gamma Hydroxybutyric Acid,-4.1
-Succimer,-4.0
+Pyruvic acid,-4.1
+L-Carnitine,-4.1
 Fosfomycin,-4.0
-Glycine,-4.0
 Penicillamine,-4.0
 Foscarnet,-4.0
+Glycine,-4.0
+Succimer,-4.0
 Methoxyflurane,-4.0
 Thiotepa,-3.9
 L-Cysteine,-3.8
-Guanidine,-3.7
 Halothane,-3.7
 Dalfampridine,-3.7
+Guanidine,-3.7
 Candicidin,-3.6
 Mechlorethamine,-3.6
 Methimazole,-3.5
@@ -1408,16 +1408,16 @@ Piperazine,-3.3
 Choline,-3.1
 Nitric Oxide,-3.0
 Vancomycin,-2.8
-Dimercaprol,-2.8
 Acetic acid,-2.8
+Dimercaprol,-2.8
 Ethanol,-2.5
 Cysteamine,-2.5
 Dimethyl sulfoxide,-2.4
 Bacitracin,-2.3
 Magnesium oxide,-2.1
 Iron,-1.3
-Zinc,-1.2
 Selenium Sulfide,-1.2
+Zinc,-1.2
 Colistimethate,-1.0
 Dactinomycin,-0.8
 Anidulafungin,6.3
